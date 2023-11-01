@@ -1,0 +1,75 @@
+
+a {  
+    color: black;
+}
+
+a:hover 
+{
+    color:#899F4A;
+    text-decoration: none;
+}
+
+.btn
+{
+    background-color:#2B4D1B;
+    border-style: none;
+}
+
+
+.container h2
+{
+    color:#2B4D1B;
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+.container h3
+{
+    color:#2B4D1B;
+}
+
+.container p 
+{
+    font-family: 'Merriweather', serif;
+}
+
+.nav-item
+{
+    font-family: 'Quicksand', sans-serif;
+}
+
+html {
+    overflow-x: hidden;
+    height: 100%;
+}
+
+body {
+    overflow: auto;
+    height: 100%;
+}
+
+.btn:hover 
+{
+    background-color:#AC631E;
+}
+
+.jumbotron
+{
+    font-family: 'Quicksand', sans-serif;
+}
+#line
+{
+    color:#DD8F43;
+}
+
+/* Fix for banner background images */
+.jumbotron, body.bg-img {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* row spacing */
+.link-grid .row div {
+    margin-bottom: 2rem;
+}
